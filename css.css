@@ -137,14 +137,176 @@ body {
   width: 57%;
 }
 
+.company .map {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.map .map-box img {
+  width: 100%;
+  height: auto;
+}
+
 /* End Company CSS*/
 
 
 
 
 
-/* Start Map CSS*/
+/* Start About CSS*/
+
+.container .about .about-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .about .about-title h2 {
+  margin-left: 10%;
+  font-family: cursive;
+}
+
+.container .about .about-title p {
+  margin-left: 10%;
+  font-size: 1em;
+  padding-right: 20%; 
+}
+
+.about .about-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.about .about-box ul.ul-about {
+  float: left;
+  width: 30%;
+}
+
+.about .about-box ul.ul-about li {
+  list-style-type: none;
+}
+
+.about .about-box ul.ul-about li img {
+  width: 26%;
+  height: auto;
+}
+
+.about .about-box ul.ul-about li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.about .about-box ul.ul-about li p {
+  font-size: 0.7em;
+}
+
+/* End About CSS*/
 
 
 
-/* End Map CSS*/
+
+
+/*Start Contact CSS*/
+
+.container .contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container .contact img {
+  width: 100%;
+  height: auto;
+}
+
+.container .contact img.img-margin {
+  width: 80%;
+  margin: 10%;
+}
+
+/*End Contact CSS*/
+
+
+
+
+
+/*start footer CSS*/
+
+.container .footer {
+  background-color: #000000;
+  padding-bottom: 1%;
+}
+
+.footer .footer-logo img {
+  width: 22%;
+  height: auto;
+  margin: 5%;
+}
+
+.footer .footer-nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer .footer-nav .ul-foot-nav {
+  float: left;
+}
+
+.footer .footer-nav .ul-foot-nav li {
+  text-decoration: none;
+}
+
+.footer .footer-nav .ul-foot-nav li.par {
+  font-size: 1.2em;
+  font-family: cursive;
+}
+
+.footer .footer-nav .ul-foot-nav li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.break-point-footer {
+  width: 90%;
+}
+
+
+.footer .footer-socical {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer .footer-socical ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.footer .footer-socical ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 5%;
+}
+
+
+.footer .footer-end ul li {
+  list-style-type: none;
+  color: white;
+  font-size: .8em;
+}
+
+/*end footer CSS*/
+
+
+
+
+
+/**
+ * CSS DESKTOP
+ **/
