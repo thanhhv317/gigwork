@@ -34,11 +34,6 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: white;
-}
-
 .show {
   margin-top: 13%;
   display: block;
@@ -385,6 +380,10 @@ body {
     font-size: 1.5em; 
     text-align: center;
     padding: 0.5em;
+  }
+
+  .nav .nav-content .nav-text a:hover {
+    color: red;
   }
 
   .nav .nav-content .left-nav {
