@@ -8,13 +8,42 @@
 	<!-- Awesome fonts -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Awesome fonts -->
+	<script src="js.js"></script>
 </head>
 <body>
 	<div class="container">
 		<!-- Start Navigation -->
 		<div class="nav">
 			<img class="img-thumbail nav-logo" src="images/logo.png" alt="logo">
-			<img class="img-thumbail nav-button" src="images/nav.png" alt="logo">
+			<!-- mobile -->
+			<img class="img-thumbail nav-button dropbtn" src="images/nav.png" href="javascript:void(0);" onclick="myFunction()" alt="logo">
+			<div id="myDropdown" class="dropdown-content">
+			    <a href="#home">Seeker</a>
+			    <a href="#about">Provider</a>
+			    <a href="#contact">Abount</a>
+			    <a href="#contact">Community</a>
+			    <a href="#contact">Contact</a>
+			</div>
+			<!-- end mobile nav -->
+
+			<!-- desktop nav -->
+
+			<div class="nav-content">
+				<div class="left-nav nav-text">
+			    	<a href="#home" class="active">Seeker</a>
+			    	<a href="#about">Provider</a>
+				</div>
+				<div class="right-nav nav-text">
+				    <a href="#contact">Abount</a>
+				    <a href="#contact">Community</a>
+				    <a href="#contact">Contact</a>
+			    </div>
+			</div>
+
+
+			<!-- end desktop nav -->
+
+
 		</div>
 		<!-- End Navigation -->
 		<!-- Start Slidebar -->
@@ -244,10 +273,12 @@
 			</div>
 			<hr class="break-point-footer">
 			<div class="footer-end">
-				<ul>
+				<ul class="left-end">
 					<li>End user licence agreements</li>
 					<li>Privacy policy</li>
-					<li><i class="fa fa-copyright"></i>Gig App Ltd 2019</li>
+				</ul>
+				<ul>
+					<li><i class="fa fa-copyright line-end-right">Gig App Ltd 2019</i></li>
 				</ul>
 			</div>
 
