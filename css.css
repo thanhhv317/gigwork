@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Start Navigation CSS */
+
+.container .nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+ .img-thumbail{
+  width: 8%;
+  padding: 10px;
+}
+
+/* End Navigation CSS */
+
+
+
+
+
+/* Start Slidebar CSS*/
+
+.slidebar {
+  max-width: 100%;
+}
+
+.slidebar .img-slidebar {
+  width: 100%;
+  height: auto;
+}
+
+/* End Slidebar CSS*/
+
+
+
+
+
+
+/* Start category CSS*/
+
+.cate {
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+}
+
+.cate ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.cate ul li a {
+  text-decoration: none;
+  font-family: cursive;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+  color: black;
+}
+
+/* End category CSS*/
+
+
+
+
+/* Start detaill CSS*/
+
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.detail ul.box-ul {
+  float: left;
+  width: 38%;
+}
+
+.detail .box-ul li {
+  list-style-type: none;
+}
+
+.detail .box-ul li img {
+  width: 25%;
+}
+
+.detail .box-ul li h2 {
+  font-size: 100%;
+}
+
+.detail .box-ul li p {
+  font-size: 80%;
+}
+
+.detail .box-ul li .btn-success {
+  background: #000000;
+  color: white;
+  border: 0px;
+  font-family: cursive;
+  width: 75%;
+}
+
+.break-point {
+  width: 75%;
+}
+
+/* End detaill CSS*/
+
+
+
+
+/* Start Company CSS*/
+
+.company h2{
+  margin-left: 10%;
+  font-family: cursive;
+}
+
+.company .company-box {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.company .company-box ul li {
+  float: left;
+  width: 31%;
+  list-style-type: none;
+}
+
+.company .company-box ul li img {
+  width: 57%;
+}
+
+/* End Company CSS*/
+
+
+
+
+
+/* Start Map CSS*/
+
+
+
+/* End Map CSS*/
